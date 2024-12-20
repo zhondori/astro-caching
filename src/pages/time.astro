@@ -1,6 +1,8 @@
 ---
 const currentTime = new Date().toLocaleTimeString();
 
+export const prerender = false;
+
 // Set Cache-Control headers for CDN caching
 Astro.response.headers.set(
   "Cache-Control",
